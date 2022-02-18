@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Assert a response payload contains 'NeedIt Task created'</description>
+        <display_name>Assert Response Payload</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <snapshot/>
+        <step_config display_value="Assert Response Payload">d53e40d59f132200ef4afa7dc67fcfc7</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-17 17:28:48</sys_created_on>
+        <sys_id>01b679a01b71411089fc8623604bcb4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assert Response Payload</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_01b679a01b71411089fc8623604bcb4a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-17 17:28:48</sys_updated_on>
+        <table/>
+        <test display_value="NeedIt - TC11">e9be89e41bfd011089fc8623604bcbdc</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=01b679a01b71411089fc8623604bcb4a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>01b679a01b71411089fc8623604bcb4a</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-17 17:28:48</sys_created_on>
+        <sys_id>30c631a41b71411089fc8623604bcb99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-17 17:28:48</sys_updated_on>
+        <value>NeedIt Task created</value>
+        <variable display_value="Response body">f0eec4d59f132200ef4afa7dc67fcf6d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>01b679a01b71411089fc8623604bcb4a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-17 17:28:48</sys_created_on>
+        <sys_id>38c631a41b71411089fc8623604bcb98</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-17 17:28:48</sys_updated_on>
+        <value>contains</value>
+        <variable display_value="Operation">ccae44d59f132200ef4afa7dc67fcf1e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_d53e40d59f132200ef4afa7dc67fcfc7^id=01b679a01b71411089fc8623604bcb4a"/>
+</record_update>
